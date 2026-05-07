@@ -482,7 +482,7 @@ Streamlit 앱은 **단일 HTML 파일로 저장해 보내는 방식**과 맞지 
 **가능한 방법**
 - 같은 와이파이에서 **PC IP:포트** 로 접속 (방화벽 허용 필요)
 - **ngrok**, **Cloudflare Tunnel** 등으로 임시 공개 URL
-- **Streamlit Community Cloud** 등에 배포
+- **Streamlit Community Cloud** 등에 배포 — 저장소 루트의 `DEPLOY.md` 에 단계별 안내가 있습니다.
 
 정적인 지도·그래프만 HTML로 뽑을 때는 Plotly/Folium 각각 `write_html` 이 가능하지만, 이 대시보드 전체는 서버가 필요합니다.
             """
