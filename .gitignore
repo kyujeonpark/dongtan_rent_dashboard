@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# IDE / 로컬
+.idea/
+.vscode/
+.cursor/
+
+# 원시 데이터(수백 MB · 배포·GitHub에는 불필요)
+1_raw/
+
+# 대시보드가 쓰지 않는 정제본·중복 형식(Parquet·GeoJSON만 있으면 됨)
+2_processed/*.csv
+2_processed/*.xlsx
+2_processed/*dedup*

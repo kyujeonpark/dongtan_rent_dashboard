@@ -1,0 +1,7 @@
+# 로컬·클라우드 공통 Streamlit 설정
+[browser]
+gatherUsageStats = false
+
+[server]
+# 업로드 기능을 쓰지 않지만 기본값 유지
+maxUploadSize = 50

@@ -1,0 +1,8 @@
+# Streamlit Cloud 기본 경로용 (내용은 dashboard/requirements.txt 와 동일)
+streamlit>=1.28
+pandas>=2.0
+pyarrow>=14
+plotly>=5.18
+folium>=0.15
+streamlit-folium>=0.15,<1
+numpy>=1.26
